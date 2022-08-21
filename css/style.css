@@ -271,21 +271,24 @@ p {
 
   min-width: 528px;
   min-height: 581px;
-  background-color: #ffffff;
+  background-color: var(--white-text-color);
 
   transform: translate(-50%, -50%) scale(1);
 }
 
 .closed {
   position: absolute;
-  color: black;
-  background: white;
+  fill: #000000;
+  background: var(--white-text-color);
   border-radius: 50%;
-  border-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   top: 8px;
   right: 8px;
   padding: 6px;
   cursor: pointer;
+
+  display: flex;
+  align-items: center;
 }
 
 /* cекція особливості */
