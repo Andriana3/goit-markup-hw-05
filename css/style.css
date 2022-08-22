@@ -510,6 +510,7 @@ p {
 
   align-items: flex-start;
   margin-right: 70px;
+  width: 231px;
 }
 .footer-address li {
   margin-bottom: 9px;
@@ -556,6 +557,11 @@ p {
   align-items: center;
   gap: 10px;
 }
+
+.social-list-style {
+  margin-top: 12px;
+}
+
 .social-link-list {
   padding: 0;
   margin: 0;
@@ -725,7 +731,6 @@ p {
 
   background-color: rgba(33, 150, 243, 0.9);
 
-  opacity: 0;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
